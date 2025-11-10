@@ -28,6 +28,13 @@ Run the default conversion command to convert all `.tsp` files in benchmarks/ori
 typer main.py run
 ```
 
+To get help, just run:
+```
+typer main.py run --help
+```
+
+![TSPLib JSON Screenshot](assets/cli_usage.png)
+
 The converted JSON files include the upper half of the distance matrix (excluding the main diagonal) and the cost of the best known solution. Solutions and TSP files were pulled on November 7th, 2025 from https://github.com/mastqe/tsplib
 
 You can also specify alternate source and output directories:
